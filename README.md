@@ -1,6 +1,5 @@
-## LeetCode 力扣
+## LeetCode 力扣 - 🔥 Top 100 Liked Questions
 
-### 🔥 Top 100 Liked Questions
 | # | Title | Solution | Diffuiculty | Category | Topics | Lists | 
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
 | 1. | [Two Sum](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md) | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | Easy | Algorithms | Array / Hash Table | 🔝 Top Interview Questions |

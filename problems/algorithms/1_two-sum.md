@@ -12,7 +12,7 @@ https://leetcode.com/problems/two-sum/
 
 ### **Solutions**
 
-- [x] Go
+#### Go
 
 ```Go
 func twoSum(nums []int, target int) []int {

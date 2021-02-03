@@ -12,7 +12,7 @@
 | 15. | [3Sum](https://leetcode.com/problems/3sum/) || Medium | Algorithms | Array / Two Pointers | 🔝 Top Interview Questions
 | 17. | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) || Medium | Algorithms | String / Backtracking / Depth-first Search / Recursion | 🔝 Top Interview Questions
 | 19. | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) || Medium | Algorithms | Linked List / Two Pointers | 🔝 Top Interview Questions
-| 20. | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) || Easy | Algorithms | String / Stack | 🔝 Top Interview Questions
+| 20. | [Valid Parentheses](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#valid-parentheses--%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E8%99%9F) | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#go) | Easy | Algorithms | String / Stack | 🔝 Top Interview Questions
 | 21. | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) || Easy | Algorithms | Linked List / Recursion | 🔝 Top Interview Questions
 | 22. | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) || Medium | Algorithms | String / Backtracking | 🔝 Top Interview Questions
 | 23. | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) || Hard | Algorithms | Linked List / Divide and Conquer / Heap | 🔝 Top Interview Questions

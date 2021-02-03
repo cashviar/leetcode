@@ -26,8 +26,9 @@ func twoSum(nums []int, target int) []int {
     return nil
 }
 ```
-| Time Complexity | Space Complexity | Runtime / Beats | Memory Usage / Beats |
+| Time Complexity | Space Complexity | Runtime | Memory Usage |
 | :--: | :--: | :--: | :--: |
-| O(n) | O(1) | 4 ms / 92.25% | 3.2 MB / 99.88% |
+| O(n) | O(1) | 4 ms | 3.2 MB |
 
-> _注意：Runtime, Memory Usage及Beats的比例皆來自LeetCode的效能測試，僅供參考。_
+> 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。
+> https://leetcode.com/submissions/detail/448482768/

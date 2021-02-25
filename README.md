@@ -42,7 +42,7 @@
 | 94. | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) || Medium | Algorithms | Hash Table / Stack / Tree | 🔝 Top Interview Questions
 | 96. | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) || Medium | Algorithms | Dynamic Programming / Tree |
 | 98. | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) || Medium | Algorithms | Tree / Depth-first Search / Recursion | 🔝 Top Interview Questions
-| 101. | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) || Easy | Algorithms | Tree / Depth-first Search / Breadth-first Search | 🔝 Top Interview Questions
+| 101. | [Symmetric Tree](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/101_symmetric-tree.md#symmetric-tree-%E5%B0%8D%E7%A8%B1%E4%BA%8C%E5%85%83%E6%A8%B9) | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/101_symmetric-tree.md#go) | Easy | Algorithms | Tree / Depth-first Search / Breadth-first Search | 🔝 Top Interview Questions
 | 102. | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) || Medium | Algorithms | Tree / Breadth-first Search | 🔝 Top Interview Questions
 | 104. | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) || Easy | Algorithms | Tree / Depth-first Search / Recursion | 🔝 Top Interview Questions
 | 105. | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) || Medium | Algorithms | Array / Tree / Depth-first Search | 🔝 Top Interview Questions

@@ -2,7 +2,7 @@
 
 | # | Title | Solution | Diffuiculty | Category | Topics | Lists | 
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-| 1. | [Two Sum](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md) | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | Easy | Algorithms | Array / Hash Table | 🔝 Top Interview Questions |
+| 1. | [Two Sum](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c#) / [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | Easy | Algorithms | Array / Hash Table | 🔝 Top Interview Questions |
 | 2. | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) || Medium | Algorithms | Linked List / Math / Recursion | 🔝 Top Interview Questions | 
 | 3. | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) || Medium | Algorithms | Hash Table / Two Pointers / String / Sliding Window | 🔝 Top Interview Questions |
 | 4. | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) || Hard | Algorithms | Array / Binary Search / Divide and Conquer |🔝 Top Interview Questions |

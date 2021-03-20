@@ -37,8 +37,7 @@ func check(left *TreeNode, right *TreeNode) bool {
     if left == nil || right == nil {
         return false
     }
-    return left.Val == right.Val && check(left.Right, right.Left) && check(left.Left, right.Right)
-    
+    return left.Val == right.Val && check(left.Right, right.Left) && check(left.Left, right.Right)    
 }
 ```
 

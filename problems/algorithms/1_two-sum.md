@@ -13,13 +13,16 @@ https://leetcode.com/problems/two-sum/
 ### **Solutions**
 
 #### C#
-
 ```csharp
-public class Solution {
-    public int[] TwoSum(int[] nums, int target) {    
+public class Solution 
+{
+    public int[] TwoSum(int[] nums, int target) 
+    {    
         Hashtable diff = new Hashtable();
-        for (int i = 0; i < nums.Length; i++) {
-            if (diff.ContainsKey(target - nums[i])) {
+        for (int i = 0; i < nums.Length; i++) 
+        {
+            if (diff.ContainsKey(target - nums[i])) 
+            {
                 return new int[2] { (int)diff[target - nums[i]], i };
             }
             diff.Add(nums[i], i);

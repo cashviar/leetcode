@@ -9,13 +9,54 @@ https://leetcode.com/problems/valid-parentheses/
 
 ### **Idea**
 
-使用關聯陣列Map設置相應括號鍵值對，接著在迭代s字串時，碰到左括號一律存入stack陣列，以LIFO後進先出的stack資料結構進行後續判斷。
+使用關聯陣列設置相應括號鍵值對及一個stack變數，在迭代字串時碰到左括號一律存入stack，以FILO先進後出的資料結構進行後續判斷。
 
-若stack陣列長度不為零且碰到右括號，則從關聯陣列映射找出對應左括號後跟stack陣列的最末值進行比較，相符則從stack陣列去除該元素，不相符或字串首位就是右括號則直接回傳false。
+若stack長度不為零且碰到右括號，則從關聯陣列查找對應左括號後跟stack的最末值進行比較，相符則從stack去除該元素，不相符則直接回傳false。
 
-最後在for迴圈跑完時回傳stack陣列長度是否等於零，即可代表輸入字串是否皆為有效括號。
+假如一直跑到迴圈結束都未有不相符，則回傳stack長度是否等於零，即可代表輸入字串是否皆為有效括號。
 
 ### **Solutions**
+
+#### C#
+
+```csharp
+public class Solution 
+{
+    public bool IsValid(string s) 
+    {
+        Dictionary<char, char> parentheses = new Dictionary<char, char>();
+        parentheses.Add(')', '(');
+        parentheses.Add('}', '{');
+        parentheses.Add(']', '[');
+
+        Stack<char> stack = new Stack<char>();
+
+        foreach(char v in s)
+        {
+            if (v == '(' || v == '[' || v == '{')
+            {
+                stack.Push(v);
+            }
+            else if (stack.Count > 0 && stack.Peek() == parentheses[v])
+            {
+                stack.Pop();
+            }
+            else 
+            {
+                return false;
+            }
+        }
+        
+        return stack.Count == 0;
+    }
+}
+```
+| Time Complexity | Space Complexity | Runtime | Memory Usage |
+| :--: | :--: | :--: | :--: |
+| O(n) | O(1) | 72 ms | 23.1 MB |
+
+> 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。
+> https://leetcode.com/submissions/detail/473401073/
 
 #### Go 
 

@@ -12,7 +12,48 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#c) | O(n) | O(n) | 92 ms | 26.6 MB | https://leetcode.com/submissions/detail/478488945/ |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#go) | O(n) | O(n) | 0 ms | 2.6 MB | https://leetcode.com/submissions/detail/453626787/ |
+
+## **C#**
+```csharp
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int val=0, ListNode next=null) {
+ *         this.val = val;
+ *         this.next = next;
+ *     }
+ * }
+ */
+public class Solution 
+{
+    public ListNode MergeTwoLists(ListNode l1, ListNode l2) 
+    {
+        if (l1 == null) 
+        {
+            return l2;
+        }
+        if (l2 == null)
+        {
+            return l1;
+        }
+        
+        if (l1.val < l2.val)
+        {
+            l1.next = MergeTwoLists(l1.next, l2);
+            return l1;
+        } 
+        else
+        {
+            l2.next = MergeTwoLists(l1, l2.next);
+            return l2;
+        }
+    }
+}
+```
 
 ## **Go** 
 ```Go

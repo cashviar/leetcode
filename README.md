@@ -27,7 +27,7 @@
 | 46.🔝 | [Permutations](https://leetcode.com/problems/permutations/) || Medium | Algorithms | Backtracking | 🔝 Top Interview Questions
 | 48.🔝 | [Rotate Image](https://leetcode.com/problems/rotate-image/) || Medium | Algorithms | Array | 🔝 Top Interview Questions
 | 49.🔝 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) || Medium | Algorithms | Hash Table / String | 🔝 Top Interview Questions
-| 53.🔝 | [Maximum Subarray](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#53maximum-subarray最大子序和) | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#go) | Easy | Algorithms | Array / Divide and Conquer / Dynamic Programming |🔝 Top Interview Questions
+| 53.🔝 | [Maximum Subarray](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#53maximum-subarray最大子序和) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#go) | Easy | Algorithms | Array / Divide and Conquer / Dynamic Programming |🔝 Top Interview Questions
 | 55.🔝 | [Jump Game](https://leetcode.com/problems/jump-game/) || Medium | Algorithms | Array / Greedy | 🔝 Top Interview Questions
 | 56.🔝 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) || Medium | Algorithms | Array / Sort | 🔝 Top Interview Questions
 | 62.🔝 | [Unique Paths](https://leetcode.com/problems/unique-paths/) || Medium | Algorithms | Array / Dynamic Programming | 🔝 Top Interview Questions

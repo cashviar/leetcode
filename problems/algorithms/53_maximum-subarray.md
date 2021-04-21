@@ -13,8 +13,28 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#c) | O(n) | O(1) | 84 ms | 25.7 MB | https://leetcode.com/submissions/detail/483370884/ |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#go) | O(n) | O(1) | 4 ms | 3.3 MB | https://leetcode.com/submissions/detail/455574200/ |
 
+## C#
+```csharp
+public class Solution 
+{
+    public int MaxSubArray(int[] nums) 
+    {
+        int currentSum = nums[0], maxSum = nums[0];
+        
+        // Greedy algorithm
+        foreach (int num in nums.Skip(1))
+        {
+            currentSum = Math.Max(num, currentSum + num);
+            maxSum = Math.Max(currentSum, maxSum);
+        }
+        
+        return maxSum;
+    }
+}
+```
 ## Go 
 ```Go
 func maxSubArray(nums []int) int {

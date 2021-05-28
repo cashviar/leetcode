@@ -12,8 +12,26 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#go) | O(n) | O(1) | 36 ms | 15.2 MB | https://leetcode.com/submissions/detail/499430153/ |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#go) | O(n) | O(1) |0 ms | 1.9 MB | https://leetcode.com/submissions/detail/456404061/ |
 
+## C#
+```csharp
+public class Solution 
+{
+    public int ClimbStairs(int n) 
+    {
+        int p1 = 0, p2 = 0, p0 = 1;         
+        for (int i = 1; i <= n; i++)
+        {
+            p1 = p2;
+            p2 = p0;
+            p0 = p1 + p2;
+        }        
+        return p0;
+    }
+}
+```
 ## Go 
 ```Go
 func climbStairs(n int) int {

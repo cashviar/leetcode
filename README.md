@@ -32,7 +32,7 @@
 | 56.🔝 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) || Medium | Algorithms | Array / Sort | 🔝 Top Interview Questions
 | 62.🔝 | [Unique Paths](https://leetcode.com/problems/unique-paths/) || Medium | Algorithms | Array / Dynamic Programming | 🔝 Top Interview Questions
 | 64. | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) || Medium | Algorithms | Array / Dynamic Programming | 
-| 70.🔝 | [Climbing Stairs](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#70climbing-stairs爬樓梯) | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#go) | Easy | Algorithms | Dynamic Programming | 🔝 Top Interview Questions
+| 70.🔝 | [Climbing Stairs](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#70climbing-stairs爬樓梯) |[C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#go) | Easy | Algorithms | Dynamic Programming | 🔝 Top Interview Questions
 | 72. | [Edit Distance](https://leetcode.com/problems/edit-distance/) || Hard | Algorithms | String / Dynamic Programming | 
 | 75.🔝 | [Sort Colors](https://leetcode.com/problems/sort-colors/) || Medium | Algorithms | Array / Two Pointers / Sort | 🔝 Top Interview Questions
 | 76.🔝 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) || Hard | Algorithms | Hash Table / Two Pointers / String / Sliding Window | 🔝 Top Interview Questions

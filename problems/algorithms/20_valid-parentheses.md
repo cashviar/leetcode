@@ -14,9 +14,32 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#c) | O(n) | O(1) | 72 ms | 23.1 MB | https://leetcode.com/submissions/detail/473401073/ |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#go) | O(n) | O(1) | 0 ms | 2 MB | https://leetcode.com/submissions/detail/450652287/ |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#c) | O(n) | O(1) | 72 ms | 23.1 MB | https://leetcode.com/submissions/detail/473401073/ |
 
+## Go
+```Go
+func isValid(s string) bool {
+    parentheses := map[rune]rune{
+        ')': '(', 
+        ']': '[', 
+        '}': '{',
+    }
+    var stack []rune
+    
+    for _, char := range s {
+        if char == '(' || char == '[' || char == '{' {
+            stack = append(stack, char)
+        } else if len(stack) > 0 && stack[len(stack) - 1] == parentheses[char] {
+            stack = stack[:len(stack) - 1]
+        } else {
+            return false
+        }
+    }
+    
+    return len(stack) == 0
+}
+```
 ## C#
 ```csharp
 public class Solution 
@@ -48,29 +71,5 @@ public class Solution
         
         return stack.Count == 0;
     }
-}
-```
-
-## Go
-```Go
-func isValid(s string) bool {
-    parentheses := map[rune]rune{
-        ')': '(', 
-        ']': '[', 
-        '}': '{',
-    }
-    var stack []rune
-    
-    for _, char := range s {
-        if char == '(' || char == '[' || char == '{' {
-            stack = append(stack, char)
-        } else if len(stack) > 0 && stack[len(stack) - 1] == parentheses[char] {
-            stack = stack[:len(stack) - 1]
-        } else {
-            return false
-        }
-    }
-    
-    return len(stack) == 0
 }
 ```

@@ -10,8 +10,22 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) | O(n) | O(n) | 236 ms | 31.9MB | https://leetcode.com/submissions/detail/475437949/ |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#go) | O(n) | O(n) | 4 ms | 3.2 MB | https://leetcode.com/submissions/detail/448482768/ |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) | O(n) | O(n) | 236 ms | 31.9MB | https://leetcode.com/submissions/detail/475437949/ |
+
+## Go
+```Go
+func twoSum(nums []int, target int) []int {
+    diff := make(map[int]int)
+    for i1, num := range nums {
+        if i2, ok := diff[target-num]; ok {
+            return []int{i2, i1}
+        }
+        diff[num] = i1
+    }
+    return nil
+}
+```
 
 ## C#
 ```csharp
@@ -30,19 +44,5 @@ public class Solution
         }                
         return null;
     }
-}
-```
-
-## Go
-```Go
-func twoSum(nums []int, target int) []int {
-    diff := make(map[int]int)
-    for i1, num := range nums {
-        if i2, ok := diff[target-num]; ok {
-            return []int{i2, i1}
-        }
-        diff[num] = i1
-    }
-    return nil
 }
 ```

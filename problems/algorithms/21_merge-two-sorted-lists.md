@@ -12,9 +12,35 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#c) | O(n) | O(n) | 92 ms | 26.6 MB | https://leetcode.com/submissions/detail/478488945/ |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#go) | O(n) | O(n) | 0 ms | 2.6 MB | https://leetcode.com/submissions/detail/453626787/ |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#c) | O(n) | O(n) | 92 ms | 26.6 MB | https://leetcode.com/submissions/detail/478488945/ |
 
+## **Go** 
+```Go
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+    if l1 == nil {
+        return l2
+    }
+    if l2 == nil {
+        return l1
+    }
+
+    if l1.Val < l2.Val {
+        l1.Next = mergeTwoLists(l1.Next, l2)
+        return l1
+    } else {
+        l2.Next = mergeTwoLists(l1, l2.Next)
+        return l2
+    }
+}
+```
 ## **C#**
 ```csharp
 /**
@@ -51,33 +77,6 @@ public class Solution
             l2.next = MergeTwoLists(l1, l2.next);
             return l2;
         }
-    }
-}
-```
-
-## **Go** 
-```Go
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-    if l1 == nil {
-        return l2
-    }
-    if l2 == nil {
-        return l1
-    }
-
-    if l1.Val < l2.Val {
-        l1.Next = mergeTwoLists(l1.Next, l2)
-        return l1
-    } else {
-        l2.Next = mergeTwoLists(l1, l2.Next)
-        return l2
     }
 }
 ```

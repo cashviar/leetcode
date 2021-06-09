@@ -11,8 +11,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/8305822ad5cc2307a66e15c0896c89f640bf08bd/problems/algorithms/104_maximum-depth-of-binary-tree.md#go) | O(n) | O(n) | 4 ms | 4.4 MB | https://leetcode.com/submissions/detail/461137920/ |
-| [C#](https://github.com/cashviar/leetcode/blob/8305822ad5cc2307a66e15c0896c89f640bf08bd/problems/algorithms/104_maximum-depth-of-binary-tree.md#c) | O(n) | O(n) | 88 ms | 25.9 MB | https://leetcode.com/submissions/detail/505318163/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/104_maximum-depth-of-binary-tree.md#go) | O(n) | O(n) | 4 ms | 4.4 MB | https://leetcode.com/submissions/detail/461137920/ |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/104_maximum-depth-of-binary-tree.md#c) | O(n) | O(n) | 88 ms | 25.9 MB | https://leetcode.com/submissions/detail/505318163/ |
 
 ## **Go**
 ```Go
@@ -38,6 +38,7 @@ func max(l, r int) int {
     return r 
 }
 ```
+## C#
 ```csharp
 /**
  * Definition for a binary tree node.

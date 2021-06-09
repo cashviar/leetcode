@@ -11,7 +11,7 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/a3d6e89b9af99507e3375c80522735f393d5cfa4/problems/algorithms/121_best-time-to-buy-and-sell-stock.md#go) | O(n) | O(1) | 120 ms | 8.6 MB | https://leetcode.com/submissions/detail/463493719/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/121_best-time-to-buy-and-sell-stock.md#go) | O(n) | O(1) | 120 ms | 8.6 MB | https://leetcode.com/submissions/detail/463493719/ |
 
 ## **Go**
 ```Go

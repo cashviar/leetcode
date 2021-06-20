@@ -12,6 +12,7 @@
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/121_best-time-to-buy-and-sell-stock.md#go) | O(n) | O(1) | 120 ms | 8.6 MB | https://leetcode.com/submissions/detail/463493719/ |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/121_best-time-to-buy-and-sell-stock.md#c) | O(n) | O(1) | 220 ms | 44.3 MB | https://leetcode.com/submissions/detail/510585135/ |
 
 ## **Go**
 ```Go
@@ -27,5 +28,25 @@ func maxProfit(prices []int) int {
         }
     }
     return max
+}
+```
+## C#
+```csharp
+public class Solution 
+{
+    public int MaxProfit(int[] prices) 
+    {
+        int tmp = 0, max = 0;
+        
+        for (int i = 1; i < prices.Length; i++)
+        {
+            tmp += prices[i] - prices[i-1];
+            
+            if (tmp < 0) tmp = 0;            
+            if (tmp > max) max = tmp;
+        }
+        
+        return max;
+    }
 }
 ```

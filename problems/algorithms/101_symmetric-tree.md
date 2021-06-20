@@ -11,8 +11,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/101_symmetric-tree.md#go) | O(n) | O(n) | 0 ms | 2.9 MB | https://leetcode.com/submissions/detail/475451684/ |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/101_symmetric-tree.md#c) | O(n) | O(n) | 88 ms | 25.6 MB | https://leetcode.com/submissions/detail/504449300/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/101_symmetric-tree.md#go) | O(n) | O(n) | 0 ms | 2.9 MB | https://drive.google.com/file/d/1QjWkjZRR-UJnrYmwmOLXjGNaHv9DcJuQ/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/101_symmetric-tree.md#c) | O(n) | O(n) | 88 ms | 25.6 MB | https://drive.google.com/file/d/1Dnc37zBa8VpOVrJpc0CzZnamp5NDE6dT/view?usp=sharing |
 
 ## **Go**
 ```Go

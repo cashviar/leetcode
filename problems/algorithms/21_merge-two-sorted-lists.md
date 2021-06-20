@@ -12,8 +12,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#go) | O(n) | O(n) | 0 ms | 2.6 MB | https://leetcode.com/submissions/detail/453626787/ |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#c) | O(n) | O(n) | 92 ms | 26.6 MB | https://leetcode.com/submissions/detail/478488945/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#go) | O(n) | O(n) | 0 ms | 2.6 MB | https://drive.google.com/file/d/1LqRXr65NValtpNOcd2Nirt2RbbYNAv-u/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#c) | O(n) | O(n) | 92 ms | 26.6 MB | https://drive.google.com/file/d/1ZNCDwmmrwopEwh9JHob-V1NJirx1YcCd/view?usp=sharing |
 
 ## **Go** 
 ```Go

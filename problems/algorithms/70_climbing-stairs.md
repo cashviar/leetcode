@@ -12,8 +12,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#go) | O(n) | O(1) |0 ms | 1.9 MB | https://leetcode.com/submissions/detail/456404061/ |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#c) | O(n) | O(1) | 36 ms | 15.2 MB | https://leetcode.com/submissions/detail/499430153/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#go) | O(n) | O(1) |0 ms | 1.9 MB | https://drive.google.com/file/d/1YDos4__ozkxhXGzlDnYLLc57qeH96NlA/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/70_climbing-stairs.md#c) | O(n) | O(1) | 36 ms | 15.2 MB | https://drive.google.com/file/d/10oTWxf3wXEvlp52xe4arDG_b_bEP5HVn/view?usp=sharing |
 
 ## Go 
 ```Go

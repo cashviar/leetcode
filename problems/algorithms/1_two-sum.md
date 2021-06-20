@@ -10,8 +10,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | O(n) | O(n) | 4 ms | 3.2 MB | https://leetcode.com/submissions/detail/448482768/ |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) | O(n) | O(n) | 236 ms | 31.9MB | https://leetcode.com/submissions/detail/475437949/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | O(n) | O(n) | 4 ms | 3.2 MB | https://drive.google.com/file/d/1E7UFUCqwUFAOhZ-HoWsx_MyLIow67S7Q/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) | O(n) | O(n) | 236 ms | 31.9MB | https://drive.google.com/file/d/1BmMEWGtqwPl_GdKhCozHTILTbDZfvYOz/view?usp=sharing |
 ## Go
 
 ```Go

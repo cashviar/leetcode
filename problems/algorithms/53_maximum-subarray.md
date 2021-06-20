@@ -13,8 +13,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#go) | O(n) | O(1) | 4 ms | 3.3 MB | https://leetcode.com/submissions/detail/455574200/ |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#c) | O(n) | O(1) | 84 ms | 25.7 MB | https://leetcode.com/submissions/detail/483370884/ |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#go) | O(n) | O(1) | 4 ms | 3.3 MB | https://drive.google.com/file/d/1MJ7_ZABpIabiCopQYaO2o_Sd0GdPoFXl/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/53_maximum-subarray.md#c) | O(n) | O(1) | 84 ms | 25.7 MB | https://drive.google.com/file/d/1UW67IoL5D6OF904E7VgPq1IprjlunPEo/view?usp=sharing |
 
 ## Go 
 ```Go

@@ -11,8 +11,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(1) | 8 ms | 4.4 MB | https://drive.google.com/file/d/1Hl4wSswXZJUCDqFgTVQybxmEEpPU0l31/view?usp=sharing |
-| [C#]() | O(n) | O(1) | 96 ms | 27.1 MB | https://drive.google.com/file/d/1k4Xon8iEynLbZr2vT0tfLIcLfHRSK84k/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/141_linked-list-cycle.md#go) | O(n) | O(1) | 8 ms | 4.4 MB | https://drive.google.com/file/d/1Hl4wSswXZJUCDqFgTVQybxmEEpPU0l31/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/141_linked-list-cycle.md#c) | O(n) | O(1) | 96 ms | 27.1 MB | https://drive.google.com/file/d/1k4Xon8iEynLbZr2vT0tfLIcLfHRSK84k/view?usp=sharing |
 
 ## **Go**
 ```Go

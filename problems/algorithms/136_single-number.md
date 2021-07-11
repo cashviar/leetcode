@@ -11,8 +11,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/121_best-time-to-buy-and-sell-stock.md#go) | O(n) | O(1) | 12 ms | 6.2 MB | https://drive.google.com/file/d/17v8988VG_y6dAGkzwx7kloHZCWMMy-W4/view?usp=sharing |
-| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/121_best-time-to-buy-and-sell-stock.md#c) | O(n) | O(1) | 104 ms | 30.2 MB | https://drive.google.com/file/d/1TAxemf_iS_srC9U-yt-3IyxBjcYIQpQY/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/136_single-number.md#go) | O(n) | O(1) | 12 ms | 6.2 MB | https://drive.google.com/file/d/17v8988VG_y6dAGkzwx7kloHZCWMMy-W4/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/136_single-number.md#c) | O(n) | O(1) | 104 ms | 30.2 MB | https://drive.google.com/file/d/1TAxemf_iS_srC9U-yt-3IyxBjcYIQpQY/view?usp=sharing |
 
 ## **Go**
 ```Go

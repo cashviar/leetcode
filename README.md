@@ -59,7 +59,7 @@
 | 146.🔝 | [LRU Cache](https://leetcode.com/problems/lru-cache/) || Medium | Algorithms | Design | 🔝 Top Interview Questions
 | 148.🔝 | [Sort List](https://leetcode.com/problems/sort-list/) || Medium | Algorithms | Linked List / Sort | 🔝 Top Interview Questions
 | 152.🔝 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) || Medium | Algorithms | Array / Dynamic Programming | 🔝 Top Interview Questions
-| 155.🔝 | [Min Stack](https://leetcode.com/problems/min-stack/) || Easy | Algorithms | Stack / Design | 🔝 Top Interview Questions
+| 155.🔝 | [Min Stack](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/155_min-stack.md#155min-stack%E6%9C%80%E5%B0%8F%E5%A0%86%E7%96%8A) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/155_min-stack.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/155_min-stack.md#go) | Easy | Algorithms | Stack / Design | 🔝 Top Interview Questions
 | 160.🔝 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) || Easy | Algorithms | Linked List | 🔝 Top Interview Questions
 | 169.🔝 | [Majority Element](https://leetcode.com/problems/majority-element/) || Easy | Algorithms | Array / Divide and Conquer / Bit Manipulation | 🔝 Top Interview Questions
 | 198.🔝 | [House Robber](https://leetcode.com/problems/house-robber/) || Medium | Algorithms | Dynamic Programming | 🔝 Top Interview Questions

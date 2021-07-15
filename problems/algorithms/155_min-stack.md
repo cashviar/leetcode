@@ -11,8 +11,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(1) | O(n) | 12 ms | 8.5 MB | https://drive.google.com/file/d/1ECI3XJyvfd5G1SM36Sm5CnbA-MNqdKes/view?usp=sharing |
-| [C#]() | O(1) | O(n) | 112 ms | 35.6 MB | https://drive.google.com/file/d/1uNZABeTYMo9ngOfB5dvUykEaX_DaVw5U/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/155_min-stack.md#go) | O(1) | O(n) | 12 ms | 8.5 MB | https://drive.google.com/file/d/1ECI3XJyvfd5G1SM36Sm5CnbA-MNqdKes/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/155_min-stack.md#c) | O(1) | O(n) | 112 ms | 35.6 MB | https://drive.google.com/file/d/1uNZABeTYMo9ngOfB5dvUykEaX_DaVw5U/view?usp=sharing |
 
 ## **Go**
 ```Go

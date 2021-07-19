@@ -10,8 +10,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(1) | 24 ms | 7.8 MB | https://drive.google.com/file/d/1xzm1lQVi-rDOh3m13gYGEcGmM-UBnqZz/view?usp=sharing |
-| [C#]() | O(n) | O(1) | 116 ms | 36.1 MB | https://drive.google.com/file/d/130p99qTxd_61B0DW47od8h80cbbT7DyE/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/160_intersection-of-two-linked-lists.md#go) | O(n) | O(1) | 24 ms | 7.8 MB | https://drive.google.com/file/d/1xzm1lQVi-rDOh3m13gYGEcGmM-UBnqZz/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/160_intersection-of-two-linked-lists.md#c) | O(n) | O(1) | 116 ms | 36.1 MB | https://drive.google.com/file/d/130p99qTxd_61B0DW47od8h80cbbT7DyE/view?usp=sharing |
 
 ## **Go**
 ```Go

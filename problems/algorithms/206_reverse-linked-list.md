@@ -9,8 +9,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(1) | 0 ms | 2.6 MB | https://drive.google.com/file/d/1-PYzZqjvgGgy5DSEMFw17wZaFCcaWSy9/view?usp=sharing |
-| [C#]() | O(n) | O(1) | 88 ms | 25.1 MB | https://drive.google.com/file/d/1Oe7l5nu_hQR10MxVKH9rADa9BRgAeCKN/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/206_reverse-linked-list.md#go) | O(n) | O(1) | 0 ms | 2.6 MB | https://drive.google.com/file/d/1-PYzZqjvgGgy5DSEMFw17wZaFCcaWSy9/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/206_reverse-linked-list.md#c) | O(n) | O(1) | 88 ms | 25.1 MB | https://drive.google.com/file/d/1Oe7l5nu_hQR10MxVKH9rADa9BRgAeCKN/view?usp=sharing |
 
 ## **Go**
 ```Go

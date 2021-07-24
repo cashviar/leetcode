@@ -9,8 +9,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(n) | 0 ms | 2.1 MB | https://drive.google.com/file/d/1-udIFRALZ5eMurAHs679pnHiX_Z3yN6f/view?usp=sharing |
-| [C#]() | O(n) | O(n) | 84 ms | 24.8 MB | https://drive.google.com/file/d/1-yazqQW8bqhktTS8e3_SLnZqGyhO9zKm/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/226_invert-binary-tree.md#go) | O(n) | O(n) | 0 ms | 2.1 MB | https://drive.google.com/file/d/1-udIFRALZ5eMurAHs679pnHiX_Z3yN6f/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/226_invert-binary-tree.md#c) | O(n) | O(n) | 84 ms | 24.8 MB | https://drive.google.com/file/d/1-yazqQW8bqhktTS8e3_SLnZqGyhO9zKm/view?usp=sharing |
 
 ## **Go**
 ```Go

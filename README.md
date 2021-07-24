@@ -69,7 +69,7 @@
 | 208.🔝 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) || Medium | Algorithms | Design / Trie | 🔝 Top Interview Questions
 | 215.🔝 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) || Medium | Algorithms | Divide and Conquer / Heap | 🔝 Top Interview Questions
 | 221. | [Maximal Square](https://leetcode.com/problems/maximal-square/) || Medium | Algorithms | Dynamic Programming |
-| 226. | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) || Easy | Algorithms | Tree |
+| 226. | [Invert Binary Tree](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/226_invert-binary-tree.md#226invert-binary-tree%E5%8F%8D%E8%BD%89%E4%BA%8C%E5%85%83%E6%A8%B9) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/226_invert-binary-tree.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/226_invert-binary-tree.md#go) | Easy | Algorithms | Tree |
 | 230.🔝 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) || Medium | Algorithms | Binary Search / Tree | 🔝 Top Interview Questions
 | 234.🔝 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) || Easy | Algorithms | Linked List / Two Pointers | 🔝 Top Interview Questions
 | 236.🔝 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) || Medium | Algorithms | Tree | 🔝 Top Interview Questions

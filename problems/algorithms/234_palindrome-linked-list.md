@@ -1,7 +1,8 @@
 ##  **234.<br/>[Palindrome Linked List](https://leetcode.com/problems/invert-binary-tree/)<br/>[回文鏈表](https://leetcode-cn.com/problems/reverse-linked-list/)**
   
 ## **Topics**
-* Tree
+* Linked List
+* Two Pointers
 
 ## **Idea**
 首先使用兩倍速的快慢指針切出原鏈表的後半段，然後反轉此後半段鏈表的節點（詳見：[206.反轉鏈表](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/206_reverse-linked-list.md#206reverse-linked-list%E5%8F%8D%E8%BD%89%E9%8F%88%E8%A1%A8)），再來以反轉後的後半段鏈表為主線，對照跟前半段的節點是否皆相同，即可判斷是否為回文鏈表。

@@ -10,8 +10,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(1) | 140 ms | 11.4 MB | https://drive.google.com/file/d/1x_4u8dwIQ_5iHmjCuv3ad-4vEz3UEmoF/view?usp=sharing |
-| [C#]() | O(n) | O(1) | 256 ms | 46.2 MB | https://drive.google.com/file/d/1lePkKOWUU_fL7fAo27XXt41XW6YhQMZn/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/234_palindrome-linked-list.md#go) | O(n) | O(1) | 140 ms | 11.4 MB | https://drive.google.com/file/d/1x_4u8dwIQ_5iHmjCuv3ad-4vEz3UEmoF/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/234_palindrome-linked-list.md#c) | O(n) | O(1) | 256 ms | 46.2 MB | https://drive.google.com/file/d/1lePkKOWUU_fL7fAo27XXt41XW6YhQMZn/view?usp=sharing |
 
 ## **Go**
 ```Go

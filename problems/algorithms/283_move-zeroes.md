@@ -10,8 +10,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(1) | 4 ms | 3.8 MB | https://drive.google.com/file/d/1Qsu8n8SN6F40RLCdXutoyFHiIKQd8PJI/view?usp=sharing |
-| [C#]() | O(n) | O(1) | 220 ms | 32.4 MB | https://drive.google.com/file/d/1hanS0LMgT184gYv9zQTT6dZG7kMZKSLs/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/283_move-zeroes.md#go) | O(n) | O(1) | 4 ms | 3.8 MB | https://drive.google.com/file/d/1Qsu8n8SN6F40RLCdXutoyFHiIKQd8PJI/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/283_move-zeroes.md#c) | O(n) | O(1) | 220 ms | 32.4 MB | https://drive.google.com/file/d/1hanS0LMgT184gYv9zQTT6dZG7kMZKSLs/view?usp=sharing |
 
 ## **Go**
 ```Go

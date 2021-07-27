@@ -78,7 +78,7 @@
 | 240.🔝 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) || Medium | Algorithms | Binary Search / Divide and Conquer | 🔝 Top Interview Questions
 | 253.🔝 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) 🔒 | - | Medium | - | - | 🔝 Top Interview Questions
 | 279.🔝 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) || Medium | Algorithms | Math / Dynamic Programming / Breadth-first Search | 🔝 Top Interview Questions
-| 283.🔝 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) || Easy | Algorithms | Array / Two Pointers | 🔝 Top Interview Questions
+| 283.🔝 | [Move Zeroes](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/283_move-zeroes.md#283move-zeroes%E7%A7%BB%E5%8B%95%E9%9B%B6) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/283_move-zeroes.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/283_move-zeroes.md#go) | Easy | Algorithms | Array / Two Pointers | 🔝 Top Interview Questions
 | 287.🔝 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) || Medium | Algorithms | Array / Two Pointers / Binary Search | 🔝 Top Interview Questions
 | 295.🔝 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) || Hard | Algorithms | Heap / Design | 🔝 Top Interview Questions
 | 297.🔝 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) || Hard | Algorithms | Tree / Design | 🔝 Top Interview Questions

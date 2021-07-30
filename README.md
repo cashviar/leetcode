@@ -93,7 +93,7 @@
 | 416. | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) || Medium | Algorithms | Dynamic Programming |
 | 437. | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) || Medium | Algorithms | Tree |
 | 438. | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) || Medium | Algorithms | Hash Table |
-| 448. | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) || Easy | Algorithms | Array |
+| 448. | [Find All Numbers Disappeared in an Array](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/448_find-all-numbers-disappeared-in-an-array.md#448find-all-numbers-disappeared-in-an-array%E6%89%BE%E5%88%B0%E6%89%80%E6%9C%89%E9%99%A3%E5%88%97%E4%B8%AD%E6%B6%88%E5%A4%B1%E7%9A%84%E6%95%B8%E5%AD%97) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/448_find-all-numbers-disappeared-in-an-array.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/448_find-all-numbers-disappeared-in-an-array.md#go) | Easy | Algorithms | Array |
 | 494. | [Target Sum](https://leetcode.com/problems/target-sum/) || Medium | Algorithms | Dynamic Programming / Depth-first Search |
 | 543. | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) || Easy | Algorithms | Tree |
 | 560. | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) || Medium | Algorithms | Array / Hash Table |

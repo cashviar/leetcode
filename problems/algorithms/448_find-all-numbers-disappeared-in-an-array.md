@@ -9,8 +9,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(1) | 44 ms | 7.9 MB | https://drive.google.com/file/d/1dE1BZDIiH_KS-8_iasC2i_pFdaJVTfKM/view?usp=sharing |
-| [C#]() | O(n) | O(1) | 292 ms | 44.1 MB | https://drive.google.com/file/d/1tRcxphRmXGGI5ELqVLiCzezczvm7Ptc4/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/448_find-all-numbers-disappeared-in-an-array.md#go) | O(n) | O(1) | 44 ms | 7.9 MB | https://drive.google.com/file/d/1dE1BZDIiH_KS-8_iasC2i_pFdaJVTfKM/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/448_find-all-numbers-disappeared-in-an-array.md#c) | O(n) | O(1) | 292 ms | 44.1 MB | https://drive.google.com/file/d/1tRcxphRmXGGI5ELqVLiCzezczvm7Ptc4/view?usp=sharing |
 
 ## **Go**
 ```Go

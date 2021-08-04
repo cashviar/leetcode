@@ -9,8 +9,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(n) | 4 ms | 4.4 MB | https://drive.google.com/file/d/1bEDEtE_NTD_FeHjY1IA4ava4Lml_5ltX/view?usp=sharing |
-| [C#]() | O(n) | O(n) | 80 ms | 26.6 MB | https://drive.google.com/file/d/1bEDEtE_NTD_FeHjY1IA4ava4Lml_5ltX/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/543_diameter-of-binary-tree.md#go) | O(n) | O(n) | 4 ms | 4.4 MB | https://drive.google.com/file/d/1bEDEtE_NTD_FeHjY1IA4ava4Lml_5ltX/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/543_diameter-of-binary-tree.md#c) | O(n) | O(n) | 80 ms | 26.6 MB | https://drive.google.com/file/d/1bEDEtE_NTD_FeHjY1IA4ava4Lml_5ltX/view?usp=sharing |
 
 ## **Go**
 ```Go

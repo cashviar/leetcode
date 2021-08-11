@@ -9,8 +9,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(n) | 12 ms | 7 MB | https://drive.google.com/file/d/1_tY7mfngOqy9PZSM8YY-98YyR7NTYag1/view?usp=sharing |
-| [C#]() | O(n) | O(n) | 96 ms | 28.6 MB | https://drive.google.com/file/d/14_Ci5K8p6CEM2ZYhLeBOxp1KIkNwyFbd/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/617_merge-two-binary-trees.md#go) | O(n) | O(n) | 12 ms | 7 MB | https://drive.google.com/file/d/1_tY7mfngOqy9PZSM8YY-98YyR7NTYag1/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/617_merge-two-binary-trees.md#c) | O(n) | O(n) | 96 ms | 28.6 MB | https://drive.google.com/file/d/14_Ci5K8p6CEM2ZYhLeBOxp1KIkNwyFbd/view?usp=sharing |
 
 ## **Go**
 ```Go

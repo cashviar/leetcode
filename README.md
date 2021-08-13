@@ -4,7 +4,7 @@
 | # | Title | Solution | Diffuiculty | Category | Topics |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | 1.🔝 | [Two Sum](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#1two-sum兩數之和) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | Easy | Algorithms | Array / Hash Table | 🔝 Top Interview Questions |
-| 2.🔝 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) || Medium | Algorithms | Linked List / Math / Recursion | 🔝 Top Interview Questions | 
+| 2.🔝 | [Add Two Numbers](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#2add-two-numbers%E5%85%A9%E6%95%B8%E7%9B%B8%E5%8A%A0) | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#c) , [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#go) | Medium | Algorithms | Linked List / Math / Recursion | 🔝 Top Interview Questions | 
 | 3.🔝 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) || Medium | Algorithms | Hash Table / Two Pointers / String / Sliding Window | 🔝 Top Interview Questions |
 | 4.🔝 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) || Hard | Algorithms | Array / Binary Search / Divide and Conquer |🔝 Top Interview Questions |
 | 5.🔝 | [Longest Palindromic Substring]() || Medium | Algorithms | String / Dynamic Programming | 🔝 Top Interview Questions |

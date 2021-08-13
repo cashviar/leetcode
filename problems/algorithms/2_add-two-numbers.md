@@ -11,8 +11,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(n) | 0 ms | 4.9 MB | https://drive.google.com/file/d/1RvAl3evA5NYSmVrGOdZSmNk0B2MEcUKA/view?usp=sharing |
-| [C#]() | O(n) | O(n) | 100 ms | 28.5 MB | https://drive.google.com/file/d/1nRdFrUYRTFsKRBrY6MH5hBmBY9rLGSad/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#go) | O(n) | O(n) | 0 ms | 4.9 MB | https://drive.google.com/file/d/1RvAl3evA5NYSmVrGOdZSmNk0B2MEcUKA/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#c) | O(n) | O(n) | 100 ms | 28.5 MB | https://drive.google.com/file/d/1nRdFrUYRTFsKRBrY6MH5hBmBY9rLGSad/view?usp=sharing |
 
 ## **Go**
 ```Go

@@ -12,8 +12,8 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
-| [Go]() | O(n) | O(n) | 4 ms | 3.1 MB | https://drive.google.com/file/d/1QPoov8W0IglW0KX6YYn30N1BEfpDDxqZ/view?usp=sharing |
-| [C#]() | O(n) | O(n) | 76 ms | 26.4 MB | https://drive.google.com/file/d/1QPoov8W0IglW0KX6YYn30N1BEfpDDxqZ/view?usp=sharing |
+| [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#go) | O(n) | O(n) | 4 ms | 3.1 MB | https://drive.google.com/file/d/1QPoov8W0IglW0KX6YYn30N1BEfpDDxqZ/view?usp=sharing |
+| [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#c) | O(n) | O(n) | 76 ms | 26.4 MB | https://drive.google.com/file/d/1QPoov8W0IglW0KX6YYn30N1BEfpDDxqZ/view?usp=sharing |
 
 ## **Go**
 ```Go

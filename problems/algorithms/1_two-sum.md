@@ -10,8 +10,26 @@
 ## **Solutions**
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
+| [Java](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#java) | O(n) | O(n) | 1 ms | 39.2MB | https://drive.google.com/file/d/13G1crITzONM18Kd78qJFdBpevTbazOJd/view?usp=sharing |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | O(n) | O(n) | 4 ms | 3.2 MB | https://drive.google.com/file/d/1E7UFUCqwUFAOhZ-HoWsx_MyLIow67S7Q/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) | O(n) | O(n) | 236 ms | 31.9MB | https://drive.google.com/file/d/1BmMEWGtqwPl_GdKhCozHTILTbDZfvYOz/view?usp=sharing |
+
+## Java
+```Java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> diff = new HashMap<Integer, Integer>();
+        for (int i = 0; i < nums.length; i++) {
+            if (diff.containsKey(target - nums[i])) {
+                return new int[] { diff.get(target - nums[i]), i };
+            }
+            diff.put(nums[i], i);
+        }
+        return null;
+    }
+}
+```
+
 ## Go
 
 ```Go

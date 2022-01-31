@@ -12,6 +12,7 @@
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#go) | O(n) | O(n) | 0 ms | 4.9 MB | https://drive.google.com/file/d/1RvAl3evA5NYSmVrGOdZSmNk0B2MEcUKA/view?usp=sharing |
+| [Java](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#java) | O(n) | O(n) | 1 ms | 42.5 MB | https://drive.google.com/file/d/1n5TUy0QHN4ut-gEkAbgWnxygDee4iA_m/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#c) | O(n) | O(n) | 100 ms | 28.5 MB | https://drive.google.com/file/d/1nRdFrUYRTFsKRBrY6MH5hBmBY9rLGSad/view?usp=sharing |
 
 ## **Go**
@@ -43,6 +44,43 @@ func addUp(l1 *ListNode, l2 *ListNode, tot int) *ListNode{
     }
 
     return &ListNode{tot%10, addUp(l1, l2, tot/10)}
+}
+```
+
+## Java
+```Java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        return addUp(l1, l2, 0);
+    }
+    
+    private ListNode addUp(ListNode l1, ListNode l2, int tot) {
+        if (l1 == null && l2 == null && tot == 0) {
+            return null;
+        }
+        
+        if (l1 != null) {
+            tot += l1.val;
+            l1 = l1.next;
+        }
+        
+        if (l2 != null) {
+            tot += l2.val;
+            l2 = l2.next;
+        }
+        
+        return new ListNode(tot%10, addUp(l1, l2, tot/10));
+    }
 }
 ```
 

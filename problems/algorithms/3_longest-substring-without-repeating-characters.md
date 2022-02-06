@@ -13,6 +13,7 @@
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#go) | O(n) | O(n) | 4 ms | 3.1 MB | https://drive.google.com/file/d/1QPoov8W0IglW0KX6YYn30N1BEfpDDxqZ/view?usp=sharing |
+| [Java](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#java) | O(n) | O(n) | 4 ms | 42.3 MB | https://drive.google.com/file/d/1oSFd31dpR9xV8tcJfNJ9jNEHP0-Zel93/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#c) | O(n) | O(n) | 76 ms | 26.4 MB | https://drive.google.com/file/d/10TEGYCpL29ZsT0B4dI6p_0HrTY17e5Hh/view?usp=sharing |
 
 ## **Go**
@@ -38,6 +39,27 @@ func max(a int, b int) int {
         return a
     }
     return b
+}
+```
+
+## Java
+```java
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        Map<Character, Integer> note = new HashMap<Character, Integer>();
+        int length = 0;
+        
+        for (int start = 0, end = 0; end < s.length(); end ++) {
+            if (note.containsKey(s.charAt(end))) {
+                start = Math.max(start, note.get(s.charAt(end))+1);
+            }
+            
+            note.put(s.charAt(end), end);
+            length = Math.max(length, end-start+1);
+        }
+        
+        return length;
+    }
 }
 ```
 

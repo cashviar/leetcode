@@ -12,7 +12,7 @@
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Java](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#java) | O(n) | O(n) | 1 ms | 39.2MB | https://drive.google.com/file/d/13G1crITzONM18Kd78qJFdBpevTbazOJd/view?usp=sharing |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#go) | O(n) | O(n) | 4 ms | 3.2 MB | https://drive.google.com/file/d/1E7UFUCqwUFAOhZ-HoWsx_MyLIow67S7Q/view?usp=sharing |
-| [JavaScript](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#javascript) | O(n) | O(n) | 64 ms | 43.6 MB | https://drive.google.com/file/d/152wPSLe9ohP_FhPz_WlbYNBppJjxzlDq/view?usp=sharing |
+| [JS](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#js) | O(n) | O(n) | 64 ms | 43.6 MB | https://drive.google.com/file/d/152wPSLe9ohP_FhPz_WlbYNBppJjxzlDq/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/1_two-sum.md#c) | O(n) | O(n) | 236 ms | 31.9MB | https://drive.google.com/file/d/1BmMEWGtqwPl_GdKhCozHTILTbDZfvYOz/view?usp=sharing |
 
 ## Java
@@ -46,7 +46,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-## JavaScript
+## JS
 ```js
 /**
  * @param {number[]} nums

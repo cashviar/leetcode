@@ -13,6 +13,7 @@
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#go) | O(n) | O(n) | 0 ms | 4.9 MB | https://drive.google.com/file/d/1RvAl3evA5NYSmVrGOdZSmNk0B2MEcUKA/view?usp=sharing |
 | [Java](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#java) | O(n) | O(n) | 1 ms | 42.5 MB | https://drive.google.com/file/d/1n5TUy0QHN4ut-gEkAbgWnxygDee4iA_m/view?usp=sharing |
+| [JS](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#js) | O(n) | O(n) | 80 ms | 46.6 MB | https://drive.google.com/file/d/1vUs5Umzg2I5jxPgDTnSnA739ywVB4z29/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/2_add-two-numbers.md#c) | O(n) | O(n) | 100 ms | 28.5 MB | https://drive.google.com/file/d/1nRdFrUYRTFsKRBrY6MH5hBmBY9rLGSad/view?usp=sharing |
 
 ## **Go**
@@ -82,6 +83,43 @@ class Solution {
         return new ListNode(tot%10, addUp(l1, l2, tot/10));
     }
 }
+```
+
+## JS
+```js
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+var addTwoNumbers = function(l1, l2) {
+    return addUp(l1, l2, 0);
+    
+    function addUp(l1, l2, tot) {
+        if (l1 == null && l2 == null && tot == 0)  {
+            return null;
+        }
+        
+        if (l1 != null) {
+            tot += l1.val;
+            l1 = l1.next;
+        }
+        
+        if (l2 != null) {
+            tot += l2.val;
+            l2 = l2.next;
+        }
+        
+        return new ListNode(tot%10, addUp(l1, l2, Math.floor(tot/10)));
+    };
+};
 ```
 
 ## **C#**

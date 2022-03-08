@@ -14,6 +14,7 @@
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#go) | O(n) | O(n) | 4 ms | 3.1 MB | https://drive.google.com/file/d/1QPoov8W0IglW0KX6YYn30N1BEfpDDxqZ/view?usp=sharing |
 | [Java](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#java) | O(n) | O(n) | 4 ms | 42.3 MB | https://drive.google.com/file/d/1oSFd31dpR9xV8tcJfNJ9jNEHP0-Zel93/view?usp=sharing |
+| [JS](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#js) | O(n) | O(n) | 72 ms | 45.2 MB | https://drive.google.com/file/d/1YNvkpfjOf7XkilpBbtnmw7IphzPoy_F8/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/3_longest-substring-without-repeating-characters.md#c) | O(n) | O(n) | 76 ms | 26.4 MB | https://drive.google.com/file/d/10TEGYCpL29ZsT0B4dI6p_0HrTY17e5Hh/view?usp=sharing |
 
 ## **Go**
@@ -61,6 +62,29 @@ class Solution {
         return length;
     }
 }
+```
+
+## JS
+```js
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+    const note = new Map();
+    let length = 0;
+    
+    for (let start = 0, end = 0; end < s.length; end++) {
+        if (note.has(s[end])) {
+            start = Math.max(start, note.get(s[end])+1);
+        }
+        
+        note.set(s[end], end);
+        length = Math.max(length, end-start+1);
+    }
+    
+    return length;
+};
 ```
 
 ## **C#**

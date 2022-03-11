@@ -15,6 +15,7 @@
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#go) | O(n) | O(1) | 0 ms | 2 MB | https://drive.google.com/file/d/1e7-AaHuvnCoMJV-rIjYZ6c1_cwpGMr_i/view?usp=sharing |
+| [JS](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#js) | O(n) | O(1) | 60 ms | 42.4 MB | https://drive.google.com/file/d/10aP7bP1cIs9y0BEkBNjoLd3gZcSQsE9X/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/20_valid-parentheses.md#c) | O(n) | O(1) | 72 ms | 23.1 MB | https://drive.google.com/file/d/150YrcwA6PU5jXpJ1TAbdXFsKBbde8hqc/view?usp=sharing |
 
 ## Go
@@ -39,6 +40,34 @@ func isValid(s string) bool {
     
     return len(stack) == 0
 }
+```
+
+## JS
+```js
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+var isValid = function(s) {
+    const parentheses = {
+        ')': '(', 
+        ']': '[', 
+        '}': '{',
+    };
+    let stack = [];
+    
+    for (let char of s) {
+        if (char == '(' || char == '[' || char == '{') {
+            stack.push(char);
+        } else if (stack.length > 0 && stack[stack.length-1] == parentheses[char]) {
+            stack.pop();
+        } else {
+            return false;
+        }
+    }
+    
+    return stack.length == 0;
+};
 ```
 ## C#
 ```csharp

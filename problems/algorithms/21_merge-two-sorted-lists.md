@@ -13,6 +13,7 @@
 | Language | Time Complexity | Space Complexity | Runtime | Memory Usage | 注意：Runtime和Memory Usage的數值皆來自LeetCode提供的效能測試，僅供參考。 |
 | :--: | :--: | :--: | :--: | :--: | :-- |
 | [Go](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#go) | O(n) | O(n) | 0 ms | 2.6 MB | https://drive.google.com/file/d/1LqRXr65NValtpNOcd2Nirt2RbbYNAv-u/view?usp=sharing |
+| [JS](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#js) | O(n) | O(n) | 68 ms | 44.6 MB | https://drive.google.com/file/d/1CVu85Yr3JxLihT0bP-qW8ZuOdgsxW_QV/view?usp=sharing |
 | [C#](https://github.com/cashviar/leetcode/blob/main/problems/algorithms/21_merge-two-sorted-lists.md#c) | O(n) | O(n) | 92 ms | 26.6 MB | https://drive.google.com/file/d/1ZNCDwmmrwopEwh9JHob-V1NJirx1YcCd/view?usp=sharing |
 
 ## **Go** 
@@ -41,6 +42,38 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     }
 }
 ```
+
+## JS
+```js
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+var mergeTwoLists = function(l1, l2) {
+    if (l1 == null) {
+        return l2;
+    }
+    if (l2 == null) {
+        return l1;
+    }
+    if (l1.val < l2.val) {
+        l1.next = mergeTwoLists(l1.next, l2);
+        return l1;
+    } else {
+        l2.next = mergeTwoLists(l1, l2.next);
+        return l2;
+    }
+};
+```
+
 ## **C#**
 ```csharp
 /**
